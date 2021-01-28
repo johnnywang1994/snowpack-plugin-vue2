@@ -10,7 +10,7 @@ npm install --save-dev snowpack-plugin-vue2
 // snowpack.config.json
 {
   "plugins": [
-    "snowpack-plugin-vue2"
+    "snowpack-vue2-plugin"
   ]
 }
 ```
