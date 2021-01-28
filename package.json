@@ -1,7 +1,7 @@
 {
   "name": "snowpack-vue2-plugin",
   "author": "johnnywang1994",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "plugin.js",
   "license": "MIT",
   "homepage": "https://github.com/johnnywang1994/snowpack-plugin-vue2.git#readme",
