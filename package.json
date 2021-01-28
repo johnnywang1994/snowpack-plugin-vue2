@@ -1,5 +1,5 @@
 {
-  "name": "snowpack-plugin-vue2",
+  "name": "snowpack-vue2-plugin",
   "author": "johnnywang1994",
   "version": "0.0.1",
   "main": "plugin.js",
@@ -19,5 +19,11 @@
   },
   "devDependencies": {
     "vue": "*"
-  }
+  },
+  "keywords": [
+    "snowpack",
+    "plugin",
+    "esm",
+    "vue"
+  ]
 }
