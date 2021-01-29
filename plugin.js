@@ -46,7 +46,9 @@ module.exports = function plugin(snowpackConfig) {
       let hasScoped = false;
       await Promise.all(
         descriptor.styles.map(async (stylePart) => {
-          hasScoped = stylePart.scoped != null;
+          if (stylePart.scoped != null) {
+            hasScoped = true;
+          }
           const css = await compileStyleAsync({
             filename: path.relative(snowpackConfig.root || process.cwd(), filePath),
             source: stylePart.content,
