@@ -87,6 +87,7 @@ module.exports = function plugin(snowpackConfig) {
         }
         output['.js'].code += `\n${js.code}\n`;
         output['.js'].code += `\ndefaultExport.render = render`;
+        output['.js'].code += `\ndefaultExport.staticRenderFns = staticRenderFns`;
         output['.js'].code += `\nexport default defaultExport`;
 
         if ((sourcemap || sourceMaps) && js.map) output['.js'].map += JSON.stringify(js.map);
